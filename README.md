@@ -26,3 +26,17 @@ Python env: torch2.0.1+cu118, python 3.10+
 IDE: VSCode
 
 Code: Jupyter notebook
+
+# 启动方法
+
+把`deepfashion-multimodel`的图片数据集，全部放在`./data/deepfashion_multimodel/images`下面即可。
+
+运行`code/e2d_deepfashion.ipynb`即可。（直接选择 **全部运行** 即可）
+
+中间遇到什么缺的包，直接`pip install`即可。
+
+## requirements
++ torch==2.1.0 + cu121 (其实cu117也行)
++ tqdm==4.65.0
++ matplotlib
++ PIL
