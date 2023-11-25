@@ -40,3 +40,10 @@ Code: Jupyter notebook
 + tqdm==4.65.0
 + matplotlib
 + PIL
+
+
+
+# Reflection
+
++ transformer layer数目：是否需要扩充？
++ attention head数目：有何影响？是否需要扩充？
